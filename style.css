@@ -5,12 +5,15 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #e0f9e0 0%, #b2e5b2 100%);
+    /* Xanh lá nhạt */
     color: #333;
 }
 
 .container {
     display: flex;
+    flex-direction: row-reverse;
+    /* Đưa sidebar sang phải */
     max-width: 1200px;
     margin: 0 auto;
     background: white;
@@ -21,8 +24,9 @@ body {
 
 .sidebar {
     width: 250px;
-    background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(180deg, #7be495 0%, #b2e5b2 100%);
+    /* Xanh lá nhạt đậm hơn */
+    color: #234d20;
     padding: 20px;
     position: sticky;
     top: 0;
@@ -32,8 +36,8 @@ body {
 
 .sidebar h3 {
     margin-top: 0;
-    color: #fff;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    color: #234d20;
+    border-bottom: 2px solid rgba(35, 77, 32, 0.2);
     padding-bottom: 10px;
 }
 
@@ -47,8 +51,8 @@ body {
 }
 
 .sidebar a {
-    color: #070101;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #234d20;
+    text-shadow: none;
     text-decoration: none;
     transition: all 0.3s;
     display: block;
@@ -58,33 +62,33 @@ body {
 }
 
 .sidebar a:hover {
-    background: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+    background: rgba(35, 77, 32, 0.08);
+    color: #388e3c;
 }
 
 .content {
     flex: 1;
     padding: 40px;
-    background: #fafbfc;
+    background: #f6fff6;
 }
 
 h1 {
-    color: #2c3e50;
-    border-bottom: 3px solid #667eea;
+    color: #234d20;
+    border-bottom: 3px solid #7be495;
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
 
 h2 {
-    color: #34495e;
+    color: #388e3c;
     margin-top: 35px;
     margin-bottom: 20px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #7be495;
     padding-left: 15px;
 }
 
 h3 {
-    color: #2c3e50;
+    color: #234d20;
     margin-top: 25px;
 }
 
@@ -96,14 +100,14 @@ h3 {
 }
 
 ul {
-    background: #f8f9fa;
+    background: #e0f9e0;
     padding: 15px 20px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #7be495;
     border-radius: 5px;
 }
 
 strong {
-    color: #2c3e50;
+    color: #234d20;
 }
 
 p {
@@ -112,7 +116,7 @@ p {
 }
 
 .highlight {
-    background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+    background: linear-gradient(120deg, #b2e5b2 0%, #e0f9e0 100%);
     padding: 15px;
     border-radius: 8px;
     margin: 20px 0;
